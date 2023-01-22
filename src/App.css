@@ -2,3 +2,7 @@
   text-align: center;
   background-color: aqua;
 }
+.card{
+  width: 25rem;
+  margin: 2rem;
+}
