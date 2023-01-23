@@ -1,8 +1,23 @@
 .App {
   text-align: center;
   background-color: aqua;
+  display: flex;
 }
 .card{
-  width: 25rem;
+  /* width: 60rem; */
   margin: 2rem;
+  border: 2px solid red;
+}
+button{
+width: 100%;
+padding: 1rem;
+background-color: rgba(6, 75, 250, 0.407);
+color: whitesmoke;
+border-radius: 40%;
+font-weight: bolder;
+font-size: larger;
+  }
+.card:hover{
+  margin-bottom: 20rem;
+  border: 2px solid blue;
 }
