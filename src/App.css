@@ -41,7 +41,8 @@ button {
 }
 .card:hover {
   opacity: 1;
-  border: 2px solid blue;
+  color: white;
+  background-color: black;
 }
 .disable {
   color: rgb(186, 176, 176);
