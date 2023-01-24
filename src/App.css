@@ -1,23 +1,54 @@
+body {
+  background-color: whitesmoke;
+}
 .App {
-  text-align: center;
-  background-color: aqua;
+  background-color: rgb(217, 193, 239);
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem 5rem 0 5rem;
 }
-.card{
-  /* width: 60rem; */
+#title {
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  letter-spacing: 0.1rem;
+}
+.card {
+  letter-spacing: 0.1rem;
   margin: 2rem;
-  border: 2px solid red;
+  border-radius: 2rem;
+  padding: 1rem 2rem 2rem 2rem;
+  background-color: whitesmoke;
+  opacity: 0.4;
 }
-button{
-width: 100%;
-padding: 1rem;
-background-color: rgba(6, 75, 250, 0.407);
-color: whitesmoke;
-border-radius: 40%;
-font-weight: bolder;
-font-size: larger;
-  }
-.card:hover{
-  margin-bottom: 20rem;
+#package {
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  letter-spacing: 0.12em;
+}
+button {
+  width: 100%;
+  padding: 1rem;
+  /* margin-bottom: 0.rem; */
+  background-color: lightcoral;
+  color: whitesmoke;
+  border-radius: 5rem;
+  font-weight: bolder;
+  font-size: larger;
+  letter-spacing: 0.1rem;
+}
+.card:hover {
+  opacity: 1;
   border: 2px solid blue;
+}
+.disable {
+  color: rgb(186, 176, 176);
+}
+@media only screen and (max-width: 600px) and (min-width: 0px) {
+  #package {
+    text-align: center;
+    font-size: large;
+  }
 }
