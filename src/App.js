@@ -5,39 +5,39 @@ function App() {
   let values = [ 
     {
              item: "Free",
-             amount: "$0/month",
-             user: "Single User",
-             storage: "5GB Storage",
-             public: "Unlimited Public Projects",
-             community:"Community Access",
-             private: "Unlimited Private Projects",
-             phone: "Dedicated Phone Support",
-             domain: "Free Subdomain",
-             report: "Monthly Status Reports"
+             amount: "$0",
+             user: "✔Single User",
+             storage: "✔5GB Storage",
+             public: "✔Unlimited public Projects",
+             community:"✔Community Access",
+             private: "❌Unlimited Private Projects",
+             phone: "❌Dedicated Phone Support",
+             domain: "❌",
+             report: "❌Monthly Status Reports"
     },
     {
       item: "PLUS",
-      amount: "$9/month",
-      user: "5 Users",
-      storage: "50GB Storage",
-      public: "Unlimited Public Projects",
-      community:"Community Access",
-      private: "Unlimited Private Projects",
-      phone: "Dedicated Phone Support",
-      domain: "Free Subdomain",
-      report: "Monthly Status Reports"
+      amount: "$9",
+      user: <b>✔5 Users</b>,
+      storage: "✔50GB Storage",
+      public: "✔Unlimited public Projects",
+      community:"✔Community Access",
+      private: "✔Unlimited Private Projects",
+      phone: "✔Dedicated Phone Support",
+      domain: "✔",
+      report: "❌Monthly Status Reports"
 },
 {
   item: "PRO",
-  amount: "$49/month",
-  user: "Unlimited Users",
-  storage: "150GB Storage",
-  public: "Unlimited Public Projects",
-  community:"Community Access",
-  private: "Unlimited Private Projects",
-  phone: "Dedicated Phone Support",
-  domain: "Free Subdomain",
-  report: "Monthly Status Reports"
+  amount: "$49",
+  user: <b>✔Unlimited Users</b>,
+  storage: "✔150GB Storage",
+  public: "✔Unlimited Pubc Projects",
+  community:"✔Community Access",
+  private: "✔Unlimited Private Projects",
+  phone: "✔Dedicated Phone Support",
+  domain: <b>✔Unlimited</b>,
+  report: "✔Monthly Status Reports"
 }
   ]
   return (
@@ -65,18 +65,18 @@ function Card(props){
   return(
       <div className="card">
         <div className="inside header">{props.item}</div>
-        <div className="inside rate"><h1> {props.amount}</h1></div>
+        <div className="inside rate"><b> {props.amount}</b>/month</div>
         <hr></hr>
-        <ul>
-          <li>{props.user}</li>
-          <li>{props.storage}</li>
-          <li>{props.public}</li>
-          <li>{props.community}</li>
-          <li>{props.private}</li>
-          <li>{props.phone}</li>
-          <li>{props.domain}</li>
-          <li>{props.report}</li>
-        </ul>
+        
+          <p>{props.user}</p>
+          <p>{props.storage}</p>
+          <p>{props.public}</p>
+          <p>{props.community}</p>
+          <p>{props.private}</p>
+          <p>{props.phone}</p>
+          <p>{props.domain}Free Subdomain</p>
+          <p>{props.report}</p>
+      
         <button>Button</button>
 
         </div>
