@@ -43,8 +43,8 @@ button {
   opacity: 1;
   color: white;
   background-color: red;
-  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgb(109, 103, 103)
-                ;
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgb(109, 103, 103);
+    ;            
 }
 .disable {
   color: rgb(186, 176, 176);
