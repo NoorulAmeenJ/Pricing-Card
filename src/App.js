@@ -18,7 +18,7 @@ function App() {
     {
       item: "PLUS",
       amount: "$9",
-      user: <b>✔5 Users</b>,
+      user: <span><b>✔5G</b> Users</span>,
       storage: "✔50GB Storage",
       public: "✔Unlimited public Projects",
       community: "✔Community Access",
@@ -30,7 +30,7 @@ function App() {
     {
       item: "PRO",
       amount: "$49",
-      user: <b>✔Unlimited Users</b>,
+      user: <span><b>✔Unlimited</b> Users</span>,
       storage: "✔150GB Storage",
       public: "✔Unlimited Pubc Projects",
       community: "✔Community Access",
@@ -38,7 +38,7 @@ function App() {
       phone: "✔Dedicated Phone Support",
       domain: (
         <span>
-          <b>✔Unlimited</b>Free Subdomain
+          <b>✔Unlimited</b> Free Subdomain
         </span>
       ),
       report: "✔Monthly Status Reports",
